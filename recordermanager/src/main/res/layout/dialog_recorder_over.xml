@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/background_dialog_recorder_over"
+        android:layout_width="250dp"
+        android:layout_height="202dp">
+
+        <View
+            android:layout_weight="7"
+            android:layout_width="1dp"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:textColor="#192E5B"
+            android:textSize="20dp"
+            android:text="錄影成功"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_weight="7"
+            android:layout_width="1dp"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:textColor="#72A2C0"
+            android:textSize="14dp"
+            android:text="您已完成錄影"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_weight="4"
+            android:layout_width="1dp"
+            android:layout_height="0dp"/>
+
+        <FrameLayout
+            android:id="@+id/firstFrameLayout"
+            android:background="@drawable/background_dialog_recorder_over_determine"
+            android:layout_width="200dp"
+            android:layout_height="35dp">
+
+            <TextView
+                android:textColor="#00743F"
+                android:layout_gravity="center"
+                android:id="@+id/firstTextView"
+                android:textSize="14dp"
+                android:text="重新錄製"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <View
+            android:layout_weight="4"
+            android:layout_width="1dp"
+            android:layout_height="0dp"/>
+        
+        <TextView
+            android:textColor="#F2A104"
+            android:id="@+id/secondTextView"
+            android:textSize="14dp"
+            android:text="重新錄製"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_weight="4"
+            android:layout_width="1dp"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+</FrameLayout>
